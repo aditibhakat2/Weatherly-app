@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weatherly</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="clear">
+
+  <div class="app">
+    <h1>🌙 Weatherly</h1>
+    <p class="tagline">Real-time weather, beautifully delivered</p>
+
+    <div class="search-box">
+      <input type="text" id="locationInput" placeholder="Search city..." />
+      <button onclick="getWeather()">🔍</button>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader" class="loader hidden"></div>
+
+    <!-- Weather Card -->
+    <div id="weatherCard" class="card">
+      <p id="welcomeMsg">Search a city to see the weather 🌍</p>
+
+      <h2 id="cityName"></h2>
+      <img id="icon" src="" alt="">
+
+      <p id="temp"></p>
+      <p id="condition"></p>
+
+      <div class="extra">
+        <span id="humidity"></span>
+        <span id="wind"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
