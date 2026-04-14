@@ -20,7 +20,7 @@ A modern, responsive weather application that provides real-time weather updates
 
 ## 🌐 Live Demo
 
-(Add your Netlify/Vercel link here after deployment)
+https://weatherly-webs.netlify.app/
 
 
 ## 📌 How to Run Locally
